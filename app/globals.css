@@ -2,26 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .btn-primary {
+    @apply py-2 px-4 bg-blue-900 border-blue-900 border-4 text-white rounded-lg shadow-md hover:bg-blue-800 hover:border-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-800 focus:ring-opacity-75;
+  }
+  .btn-secondary {
+    @apply py-2 px-4 border-blue-900 border-4 text-white rounded-lg shadow-md hover:bg-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+  }
+  h1{
+    @apply text-4xl text-blue-900 font-light my-3 font-['Noto_Serif_Display'] uppercase 
+  }
+  h2{
+    @apply text-3xl text-blue-900 font-light my-3 font-['Noto_Serif_Display'] uppercase 
+  }
+  h3{
+    @apply text-2xl text-blue-900 font-light my-3 font-['Noto_Serif_Display']  
+  }
+  p{
+    @apply pb-3
+  }
+  body{
+    @apply text-lg font-light
+  }
+
+  a, button{
+
+    @apply font-['Noto_Serif_Display']  font-light
+  }
+  
+}
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
 }
