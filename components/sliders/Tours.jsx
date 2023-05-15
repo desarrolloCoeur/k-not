@@ -15,7 +15,7 @@ export const Tours = () => {
                 {toursData.tours.map((tour, i) => {
                     return (
                         <div key={i} className="embla__slide flex-[0_0_60%] md:flex-[0_0_30%] items-center px-2 py-1">
-                            <Link href="#" className="relative">
+                            <Link href={`/tours/${tour.slug}`}className="relative">
                                 <Image
                                     src={tour.imageSlider}
                                     alt={tour.title}

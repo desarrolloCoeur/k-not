@@ -3,10 +3,10 @@ import toursData from "../data/tours.json";
 import React from "react";
 import Link from "next/link";
 
-const ToursHome = () => {
+const ToursHome = ({title}) => {
     return (
         <>
-            <h2 className="text-center md:text-left">Nuestros Tours</h2>
+            <h2 className="text-center md:text-left">{title} </h2>
             <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
                 {toursData.tours.map((tour, i) => {
                     return (

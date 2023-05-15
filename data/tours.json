@@ -7,27 +7,34 @@
             "shortDescription": "Únase a nosotros en esta emocionante excursión de avistamiento de ballenas y observe a estos majestuosos mamíferos marinos en su hábitat natural.",
             "description": "Esta emocionante excursión de avistamiento de ballenas le permitirá observar a estos majestuosos mamíferos marinos en su hábitat natural. Nuestros guías expertos lo llevarán en un viaje inolvidable mientras observa las ballenas jorobadas en su migración anual. Esta experiencia única en la vida es algo que nunca olvidará.",
             "time": "4 horas",
-            "price": "1,500"
+            "price": "1,500",
+            "gallery" : [
+                "/img/whale-whatching-1.webp","/img/whale-whatching-2.webp","/img/whale-whatching-3.webp","/img/whale-whatching-4.webp","/img/whale-whatching-5.webp","/img/whale-whatching-6.webp"
+            ]
         },
         {
             "title": "Surfing Lessons",
             "slug" : "surfing-lessons",
-
             "imageSlider": "/img/surf-slide.jpeg",
             "shortDescription": "¡Aprende a surfear en las hermosas playas de Puerto Vallarta con nuestros instructores expertos! Esta experiencia única es perfecta para principiantes y surfistas avanzados por igual.",
             "description": "¿Quieres aprender a surfear en algunas de las mejores playas de Puerto Vallarta? ¡Tenemos la solución perfecta! Nuestros instructores expertos lo guiarán a través de las técnicas y habilidades necesarias para que pueda disfrutar de una de las actividades acuáticas más emocionantes. Adecuado para principiantes y surfistas avanzados por igual, ¡esta experiencia única es algo que no querrá perderse!",
             "time": "2 horas",
-            "price": "700"
+            "price": "700",
+            "gallery" : [
+                "/img/surf-1.webp","/img/surf-2.webp", "/img/surf-3.webp","/img/surf-7.webp","/img/surf-5.webp","/img/surf-6.webp"
+            ]
         },
         {
             "title": "Marietas Islands",
             "slug" : "marietas-islands",
-
             "imageSlider": "/img/marietas-islands-slider.jpeg",
             "shortDescription": "¡Únase a nosotros en una emocionante excursión a las Islas Marietas! Con una gran variedad de vida marina y hermosas playas, este viaje es perfecto para los amantes de la naturaleza y la aventura.",
             "description": "Las Islas Marietas son una maravilla natural en Puerto Vallarta y están llenas de una gran variedad de vida marina y hermosas playas. Únase a nosotros en una emocionante excursión y disfrute de un día lleno de aventura y diversión. Nuestros guías expertos lo llevarán a través de las mejores partes de las islas y lo ayudarán a descubrir la belleza natural de esta área protegida. ¡No se pierda esta oportunidad única en la vida!",
             "time": "6 horas",
-            "price": "1800"
+            "price": "1800",
+            "gallery" : [
+                "/img/marietas-islands-1.webp","/img/marietas-islands-2.webp","/img/marietas-islands-3.webp","/img/marietas-islands-4.webp","/img/marietas-islands-5.webp","/img/marietas-islands-6.webp"
+            ]
         },
         {
             "title": "Viaje a Yelapa",
@@ -36,15 +43,22 @@
             "shortDescription": "Adéntrate en una de las playas más hermosas de la Bahía de Banderas",
             "description": "El pueblo de Yelapa se encuentra en una pequeña bahía rodeada de montañas cubiertas de vegetación. Este pequeño pueblo sólo es accesible por barco y es un refugio perfecto para aquellos que buscan un escape de la vida cotidiana. En este tour, visitaremos la playa de Yelapa, admiraremos la cascada y disfrutaremos de una deliciosa comida en la playa. También tendrás tiempo libre para explorar el pueblo y sus alrededores.",
             "time": "6 horas.",
-            "price": "1350"
+            "price": "1350",
+            "gallery" : [
+                "/img/yelapa-1.webp", "/img/yelapa-2.webp","/img/yelapa-3.webp","/img/yelapa-4.webp","/img/yelapa-5.webp","/img/yelapa-6.webp"
+            ]
         },
         {
             "title": "Jet-Ski en Punta de Mita y Sayulita",
+            "slug" : "jet-ski-rental",
             "imageSlider": "/img/jet-ski-slider.webp",
             "shortDescription": "Acelera la emoción con una aventura en jet-ski",
             "description": "Explora las hermosas playas de Punta de Mita y Sayulita en un emocionante tour en jet-ski. Disfruta de la velocidad y la adrenalina mientras recorres la costa y te sumerges en las cálidas aguas del Pacífico. Este tour es perfecto para aquellos que buscan una experiencia emocionante en el agua.",
             "time": "3 horas",
-            "price": "2500"
+            "price": "2500",
+            "gallery" : [
+                "/img/jet-ski-1.webp","/img/jet-ski-2.webp","/img/jet-ski-3.webp","/img/jet-ski-4.webp","/img/jet-ski-5.webp","/img/jet-ski-6.webp"
+            ]
         },
         {
             "title": "Kayak en el Océano",
@@ -53,7 +67,10 @@
             "shortDescription": "Descubre la belleza del océano mientras haces kayak",
             "description": "Este tour en kayak te llevará por los tranquilos y cristalinos aguas del Pacífico para explorar la belleza natural de la costa de Puerto Vallarta. Admirarás la impresionante vista de la ciudad desde la bahía y también tendrás la oportunidad de descubrir algunos de los lugares más hermosos y secretos de la costa.",
             "time": "2 horas",
-            "price": "1200"
+            "price": "1200",
+            "gallery" : [
+                "/img/kayak-1.webp","/img/kayak-2.webp","/img/kayak-3.webp","/img/kayak-4.webp","/img/kayak-5.webp","/img/kayak-6.webp"
+            ]
         }
     ]
 }

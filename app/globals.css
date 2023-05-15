@@ -29,6 +29,10 @@
 
     @apply font-['Noto_Serif_Display']  font-light
   }
+
+  input{
+    @apply border-2 border-blue-900 rounded-md px-2 py-2
+  }
   
 }
 

@@ -24,7 +24,7 @@ export default function Home() {
             </div>
 
             <div className="container mx-auto">
-                <ToursHome />
+                <ToursHome  title="Nuestros Tours"/>
             </div>
 
             <div className="container mx-auto">
