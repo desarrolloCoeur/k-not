@@ -1,8 +1,8 @@
-import React from 'react'
+import UbicacionesGrid from '../../components/UbicacionesGrid'
 
 const Ubicaciones = () => {
   return (
-    <div>Ubicaciones</div>
+    <UbicacionesGrid />
   )
 }
 

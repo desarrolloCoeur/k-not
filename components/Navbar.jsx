@@ -75,24 +75,24 @@ const Navbar = () => {
             </div>
 
             {isMenuOpen && (
-                <div className="flex flex-col uppercase items-center">
+                <div className="flex flex-col items-center">
                     <Link
                         href="/"
-                        className="text-blue-900 hover:text-blue-950"
+                        className="text-blue-900 hover:text-blue-950 uppercase"
                         onClick={toggleMenu}
                     >
                         Inicio
                     </Link>
                     <button
                         onClick={toggleTourMobile}
-                        className="text-blue-900 hover:text-blue-950"
+                        className="text-blue-900 hover:text-blue-950 uppercase"
                     >
                         TOURS
                     </button>
                     {isTourOpenMobile && <Tours toggleTours={toggleMenu} />}
                     <Link
                         href="/ubicaciones"
-                        className="text-blue-900 hover:text-blue-950"
+                        className="text-blue-900 hover:text-blue-950 uppercase"
                         onClick={toggleMenu}
 
                     >
@@ -100,7 +100,7 @@ const Navbar = () => {
                     </Link>
                     <Link
                         href="/nosotros"
-                        className="text-blue-900 hover:text-blue-950"
+                        className="text-blue-900 hover:text-blue-950 uppercase"
                         onClick={toggleMenu}
 
                     >
@@ -108,7 +108,7 @@ const Navbar = () => {
                     </Link>
                     <Link
                         href="/contacto"
-                        className="text-blue-900 hover:text-blue-950"
+                        className="text-blue-900 hover:text-blue-950 uppercase"
                         onClick={toggleMenu}
 
                     >

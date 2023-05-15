@@ -1,0 +1,34 @@
+{
+    "ubicaciones" : [
+        {
+            "title" : "Puerto Vallarta",
+            "slug" : "puerto-vallarta",
+            "description" : "Puerto Vallarta es una ciudad turística ubicada en la costa del Pacífico de México, en el estado de Jalisco. Es conocida por sus playas hermosas, su arquitectura colonial y su vibrante vida nocturna. También es famosa por su famoso Malecón, un paseo marítimo con tiendas, restaurantes y bares.",
+            "image" : "/img/puerto-vallarta.webp" 
+        },
+        {
+            "title" : "Sayulita",
+            "slug" : "sayulita",
+            "description" : "Sayulita es un pequeño pueblo costero ubicado al norte de Puerto Vallarta, en el estado de Nayarit. Es conocido por su ambiente relajado y bohemio, su colorida arquitectura y sus excelentes playas para practicar surf.",
+            "image" : "/img/sayulita.webp" 
+        },
+        {
+            "title" : "Punta Mita",
+            "slug" : "punta-mita",
+            "description" : "Punta Mita es un complejo turístico de lujo ubicado en la costa del Pacífico, al norte de Puerto Vallarta. Es conocido por sus hermosas playas, su campo de golf de clase mundial y su variedad de restaurantes de alta calidad. También es un destino popular para practicar deportes acuáticos y para observar la vida marina.",
+            "image" : "/img/punta-mita.webp" 
+        },
+        {
+            "title" : "Anclote",
+            "slug" : "anclote",
+            "description" : "Playa El Anclote es una playa ubicada en el pueblo costero de Punta de Mita, al norte de Puerto Vallarta. Es conocida por su hermosa arena blanca y sus aguas cristalinas, lo que la convierte en un lugar popular para practicar deportes acuáticos como el surf y el paddleboarding.",
+            "image" : "/img/anclote.webp" 
+        },
+        {
+            "title" : "Marina Vallarta",
+            "slug" : "puerto-vallarta",
+            "description" : "Marina Vallarta es un complejo turístico ubicado en la bahía de Banderas, al norte de Puerto Vallarta. Es conocido por su marina, que es una de las más grandes de México, y su campo de golf de 18 hoyos. También cuenta con una variedad de restaurantes, bares y tiendas.",
+            "image" : "/img/marina-vallarta.webp" 
+        }
+    ]
+}
