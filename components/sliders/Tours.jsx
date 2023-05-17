@@ -23,7 +23,7 @@ export const Tours = ({toggleTours,toggleMenuMobile}) => {
                                     height={320}
                                     className="object-cover w-full h-full"
                                 />
-                                <h3 className="absolute w-3/4 bg-white bottom-0 mx-auto left-0 right-0 rounded-md  text-center">{tour.title}</h3>
+                                <h3 className="absolute w-3/4 bottom-0 mx-auto left-0 right-0 rounded-full  text-center bg-slate-100">{tour.title}</h3>
                             </Link>
                         </div>
                     );

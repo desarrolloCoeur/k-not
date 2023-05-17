@@ -6,13 +6,13 @@ import { FaCalendar, FaUser } from "react-icons/fa";
 const LatestBlogs = () => {
     return (
         <div className="container mx-auto w-11/12 sm:w-full ">
-            <h2>Nuestros ultimos blogs</h2>
+            <h2>Conoce mas nuestras Aventuras!</h2>
             <div className="flex flex-wrap justify-center md:flex-nowrap gap-10 ">
                 {blogData.blogs.map((blog, i) => {
                     return (
                         <div
                             key={i}
-                            className="w-full md:w-1/3 shadow-md transition-all hover:shadow-2xl hover:scale-[1.009] rounded-md"
+                            className="bg-slate-100 w-full md:w-1/3 shadow-md transition-all hover:shadow-2xl hover:scale-[1.009] rounded-md"
                         >
                             <Image
                                 src={blog.ftimg}

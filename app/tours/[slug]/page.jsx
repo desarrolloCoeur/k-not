@@ -50,11 +50,11 @@ const Tour = ({ params: { slug } }) => {
                     src={tour.imageSlider}
                     alt={tour.title}
                 />
-                <div className="top-0 left-0 right-0 bottom-0 absolute bg-[rgba(0,0,0,0.3)]"></div>
+                {/* <div className="top-0 left-0 right-0 bottom-0 absolute bg-[rgba(23,37,83,0.5)]"></div>
 
                 <div className="absolute bottom-4 left-0 right-0 mx-auto text-white text-center justify-center drop-shadow-lg max-w-[550px] z-10">
                     <p className="text-xl">{tour.shortDescription}</p>
-                </div>
+                </div> */}
             </div>
             <div className="container mx-auto w-11/12 ">
                 <div className="flex flex-col md:flex-row gap-3 relative my-10">

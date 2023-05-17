@@ -18,10 +18,10 @@ const ContactTour = () => {
     }
 
   return (
-    <>
+    <div className="bg-slate-100 px-3 py-5 sticky top-2 rounded-md">
 
 
-    <form onSubmit={submitEmail} className="flex flex-col gap-3 sticky top-2" >
+    <form onSubmit={submitEmail} className="flex flex-col gap-3 " >
         <h3>Reservar Ahora!</h3>
         <input type="text" value={name} placeholder="Nombre" onChange={(e) => setName(e.target.value)} />
         <input type="date" value={date} placeholder="Fecha" onChange={(e) => setDate(e.target.value)} />
@@ -31,7 +31,7 @@ const ContactTour = () => {
         <button className="btn-primary" onClick={submitMessage}>Enviar WhatsApp</button>
     </form>
     
-    </>
+    </div>
   )
 }
 

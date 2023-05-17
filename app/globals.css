@@ -18,6 +18,9 @@
   h3{
     @apply text-2xl text-blue-950 font-semibold my-3  
   }
+  h4{
+    @apply text-xl text-blue-950 font-semibold my-3  
+  }
   p{
     @apply pb-3
   }
@@ -26,7 +29,6 @@
   }
 
   a, button{
-
     @apply font-semibold
   }
 

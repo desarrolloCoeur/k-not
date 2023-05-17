@@ -3,6 +3,7 @@ import ToursHome  from "@/components/ToursHome";
 import Image from "next/image";
 import Link from "next/link";
 import LatestBlogs from "@/components/LatestBlogs";
+import Reviews from "@/components/Reviews";
 
 export default function Home() {
     return (
@@ -26,6 +27,7 @@ export default function Home() {
 
                 <ToursHome  title="Nuestros Tours"/>
 
+                <Reviews/>
                 <LatestBlogs />
 
 

@@ -25,7 +25,7 @@ const Navbar = () => {
     
 
     return (
-        <header className="w-full relative text-blue-950 ">
+        <header className="w-full relative text-blue-950 bg-slate-100">
             <div className="flex justify-between px-2 py-2 items-center container w-full mx-auto">
                 <div>
                     <Link href="/">
