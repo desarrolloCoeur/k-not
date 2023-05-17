@@ -23,9 +23,9 @@ const Footer = () => {
                         </p>
                     </div>
                     <div className="md:w-1/2 lg:w-1/4 flex flex-col items-start gap-1 mb-10 pr-3">
-                        <h3>Contact Us</h3>
+                        <h3>Contactanos</h3>
                         <Link href="#" className="flex items-center gap-3"><FaEnvelope /> info@gofishpuntamita.com</Link>
-                        <small>From USA</small>
+                        <small>Desde USA</small>
                         <div className="flex flex-row gap-3 items-start ">
                             <FaPhone />
                             <div className="flex flex-col">
@@ -33,7 +33,7 @@ const Footer = () => {
                                 <Link href="#">322 298 4295</Link>
                             </div>
                         </div>
-                        <small>From MX</small>
+                        <small>Desde MX</small>
                         <div className="flex flex-row gap-3 items-start ">
                             <FaPhone />
                             <div className="flex flex-col">
@@ -43,7 +43,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="md:w-1/2 lg:w-1/4 flex flex-col items-start gap-1 mb-10 pr-3">
-                        <h3>Contactanos</h3>
+                        <h3>Acerca de</h3>
                         <div className="flex flex-col gap-1">
                             <Link href="#">Rentar un Jet-ski</Link>
                             <Link href="#">Ir a Pescar</Link>
