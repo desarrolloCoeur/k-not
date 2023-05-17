@@ -41,7 +41,7 @@ const Tour = ({ params: { slug } }) => {
     }
 
     return (
-        <div className="container mx-auto ">
+        <>
             <div className="relative ">
                 <Image
                     className="object-cover w-full h-[28rem] object-center"
@@ -56,53 +56,54 @@ const Tour = ({ params: { slug } }) => {
                     <p className="text-xl">{tour.shortDescription}</p>
                 </div>
             </div>
-
-            <div className="flex flex-col md:flex-row gap-3 relative">
-                <div className="w-full md:w-2/3 px-3">
-                    <div className="flex justify-between w-full flex-col sm:flex-row">
-                        <div>
-                            <h1>{tour.title}</h1>
+            <div className="container mx-auto w-11/12 ">
+                <div className="flex flex-col md:flex-row gap-3 relative my-10">
+                    <div className="w-full md:w-2/3">
+                        <div className="flex justify-between w-full flex-col sm:flex-row">
+                            <div>
+                                <h1>{tour.title}</h1>
+                            </div>
+                            <div className="flex flex-wrap items-center gap-3 ">
+                                <label className="flex flex-row gap-1 items-center">
+                                    <FaClock /> {tour.time}
+                                </label>
+                                <label className="flex flex-row gap-1 items-center">
+                                    <FaMoneyBill /> {`$ ${tour.price}`}
+                                </label>
+                            </div>
                         </div>
-                        <div className="flex flex-wrap items-center gap-3 ">
-                            <label className="flex flex-row gap-1 items-center">
-                                <FaClock /> {tour.time}
-                            </label>
-                            <label className="flex flex-row gap-1 items-center">
-                                <FaMoneyBill /> {`$ ${tour.price}`}
-                            </label>
+                        <p className="mt-3">{tour.description}</p>
+
+                        <div className="container mx-auto grid grid-cols-2 md:grid-cols-3 gap-3 -px-3 mt-3">
+                            {tour.gallery.map((image, i) => {
+                                return (
+                                    <Image
+                                        key={i}
+                                        src={image}
+                                        width={500}
+                                        height={500}
+                                        alt={tour.title}
+                                        className="w-full h-60 object-cover"
+                                    />
+                                );
+                            })}
                         </div>
                     </div>
-                    <p className="mt-3">{tour.description}</p>
-
-                    <div className="container mx-auto grid grid-cols-2 md:grid-cols-3 gap-3 -px-3">
-                        {tour.gallery.map((image, i) => {
-                            return (
-                                <Image
-                                    key={i}
-                                    src={image}
-                                    width={500}
-                                    height={500}
-                                    alt={tour.title}
-                                    className="w-full h-60 object-cover"
-                                />
-                            );
-                        })}
+                    <div className="w-full md:w-1/3 px-3" id="reservar">
+                        <ContactTour />
                     </div>
                 </div>
-                <div className="w-full md:w-1/3 px-3" id="reservar">
-                    <ContactTour />
-                </div>
-            </div>
 
-            <ToursHome title="Otros Tours" />
+                <ToursHome title="Otros Tours" />
 
                 <Link href="#reservar">
-            <div className="fixed bottom-3 left-3 bg-blue-900 text-white flex items-center gap-2 px-2 py-2 rounded-md md:hidden">
-                    <label>RESERVAR!</label>
-                    <FaCalendar />
-            </div>
+                    <div className="fixed bottom-3 left-3 bg-blue-900 text-white flex items-center gap-2 px-2 py-2 rounded-md md:hidden">
+                        <label>RESERVAR!</label>
+                        <FaCalendar />
+                    </div>
                 </Link>
-        </div>
+            </div>
+        </>
     );
 };
 

@@ -1,29 +1,34 @@
 import Link from "next/link";
 import blogData from "../data/blog.json";
 import Image from "next/image";
+import { FaCalendar, FaUser } from "react-icons/fa";
 
 const LatestBlogs = () => {
     return (
-        <>
-            <h2 className="text-center md:text-left">Nuestros ultimos blogs</h2>
-            <div className="container mx-auto flex flex-wrap justify-center md:flex-nowrap gap-3">
+        <div className="container mx-auto w-11/12 sm:w-full ">
+            <h2>Nuestros ultimos blogs</h2>
+            <div className="flex flex-wrap justify-center md:flex-nowrap gap-10 ">
                 {blogData.blogs.map((blog, i) => {
                     return (
                         <div
                             key={i}
-                            className="w-10/12  md:w-1/3  text-center "
+                            className="w-full md:w-1/3 shadow-md transition-all hover:shadow-2xl hover:scale-[1.009] rounded-md"
                         >
                             <Image
                                 src={blog.ftimg}
                                 height={300}
                                 width={400}
                                 alt={blog.short}
-                                className="h-[300px] w-full object-cover rounded-xl"
+                                className="h-[300px] w-full object-cover rounded-t-md"
                             />
-                            <div className="px-5 pb-5">
+                            <div className="px-5 pb-10">
                                 <h3>{blog.title}</h3>
+                                <div className="flex gap-5 flex-row mb-2 -mt-1">
+                                    <label className="flex flex-row items-center gap-1"><FaCalendar className="text-blue-900"/>{blog.date}</label>
+                                    <label className="flex flex-row items-center gap-1"><FaUser className="text-blue-900"/>{blog.author}</label>
+                                </div>
                                 <div
-                                    className="mb-5 mt-2"
+                                    className="mb-3 mt-1"
                                     dangerouslySetInnerHTML={{
                                         __html: blog.short,
                                     }}
@@ -39,7 +44,7 @@ const LatestBlogs = () => {
                     );
                 })}
             </div>
-        </>
+        </div>
     );
 };
 

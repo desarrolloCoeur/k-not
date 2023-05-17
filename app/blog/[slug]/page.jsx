@@ -26,7 +26,7 @@ const Blog = ({ params: { slug } }) => {
     );
   }
   return (
-    <div className="container mx-auto px-3">
+    <div className="container mx-auto w-11/12">
       <Image
         src={blog.ftimg}
         alt={blog.short}

@@ -14,8 +14,8 @@ export const Tours = ({toggleTours,toggleMenuMobile}) => {
             <div className="embla__container flex ">
                 {toursData.tours.map((tour, i) => {
                     return (
-                        <div key={i} className="embla__slide flex-[0_0_60%] md:flex-[0_0_30%] items-center px-2 py-1">
-                            <Link href={`/tours/${tour.slug}`}className="relative" onClick={() => {toggleTours(); toggleMenuMobile()}}>
+                        <div key={i} className="embla__slide flex-[0_0_90%] md:flex-[0_0_33.333333%] items-center px-2 py-1">
+                            <Link href={`/tours/${tour.slug}`} className="relative" onClick={() => {toggleTours(); toggleMenuMobile()}}>
                                 <Image
                                     src={tour.imageSlider}
                                     alt={tour.title}
@@ -23,7 +23,7 @@ export const Tours = ({toggleTours,toggleMenuMobile}) => {
                                     height={320}
                                     className="object-cover w-full h-full"
                                 />
-                                <h3 className="absolute bg-white bottom-0 left-0 right-0  text-center">{tour.title}</h3>
+                                <h3 className="absolute w-3/4 bg-white bottom-0 mx-auto left-0 right-0 rounded-md  text-center">{tour.title}</h3>
                             </Link>
                         </div>
                     );
