@@ -23,11 +23,11 @@ const ToursHome = ({title}) => {
                                 className="h-[350px] w-full object-cover  object-center rounded-t-md"
                             />
 
-                            <div className="px-5 pb-10 pt-2">
+                            <div className="px-5 pb-10 pt-2 bg-blue-50">
                                 <h3>{tour.title}</h3>
                                 <div className="flex gap-5 flex-row mb-2 -mt-1">
-                                    <label className="flex flex-row items-center gap-1"><  FaClock className="text-blue-900"/>{tour.time}</label>
-                                    <label className="flex flex-row items-center gap-1"><  FaMoneyBill className="text-blue-900"/>{tour.price}</label>
+                                    <label className="flex flex-row items-center gap-1"><  FaClock />{tour.time}</label>
+                                    <label className="flex flex-row items-center gap-1"><  FaMoneyBill />{tour.price}</label>
                                 </div>
                                 <p>{tour.shortDescription}</p>
                                 <div className="mb-3">

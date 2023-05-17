@@ -25,46 +25,46 @@ const Navbar = () => {
     
 
     return (
-        <header className="w-full relative text-blue-900 ">
-            <div className="flex justify-between px-2 py-2 items-center">
+        <header className="w-full relative text-blue-950 ">
+            <div className="flex justify-between px-2 py-2 items-center container w-full mx-auto">
                 <div>
                     <Link href="/">
                         <Image
-                            src="/img/logo.webp"
+                            src="/img/logo-knot.webp"
                             alt="Knot Fishing & Jetski Rental Logo"
                             width={150}
                             height={80}
                         />
                     </Link>
                 </div>
-                <div className="md:flex items-center gap-7 pr-5 uppercase hidden">
+                <div className="md:flex items-center gap-7 pr-5 uppercase hidden ">
                     <Link
                         href="/"
-                        className="text-blue-900 hover:text-blue-950"
+                        
                     >
                         Inicio
                     </Link>
                     <button
                         onClick={toggleTours}
-                        className="text-blue-900 hover:text-blue-950"
+                        
                     >
                         TOURS
                     </button>
                     <Link
                         href="/ubicaciones"
-                        className="text-blue-900 hover:text-blue-950"
+                        
                     >
                         Ubicaciones
                     </Link>
                     <Link
                         href="/nosotros"
-                        className="text-blue-900 hover:text-blue-950"
+                        
                     >
                         Nosotros
                     </Link>
                     <Link
                         href="/contacto"
-                        className="text-blue-900 hover:text-blue-950"
+                        
                     >
                         Contacto
                     </Link>

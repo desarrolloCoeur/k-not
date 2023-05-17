@@ -24,8 +24,8 @@ const LatestBlogs = () => {
                             <div className="px-5 pb-10">
                                 <h3>{blog.title}</h3>
                                 <div className="flex gap-5 flex-row mb-2 -mt-1">
-                                    <label className="flex flex-row items-center gap-1"><FaCalendar className="text-blue-900"/>{blog.date}</label>
-                                    <label className="flex flex-row items-center gap-1"><FaUser className="text-blue-900"/>{blog.author}</label>
+                                    <label className="flex flex-row items-center gap-1"><FaCalendar />{blog.date}</label>
+                                    <label className="flex flex-row items-center gap-1"><FaUser />{blog.author}</label>
                                 </div>
                                 <div
                                     className="mb-3 mt-1"
