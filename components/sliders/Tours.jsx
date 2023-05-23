@@ -7,6 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const Tours = ({toggleTours,toggleMenuMobile}) => {
+    
     const [emblaRef] = useEmblaCarousel({ loop: true });
 
     return (

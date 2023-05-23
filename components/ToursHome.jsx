@@ -6,7 +6,7 @@ import { FaClock,FaMoneyBill } from "react-icons/fa";
 
 const ToursHome = ({title}) => {
     return (
-        <div className="container mx-auto my-10">
+        <div className="container mx-auto my-10" id="tours">
             <h2 className="">{title} </h2>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
                 {toursData.tours.map((tour, i) => {

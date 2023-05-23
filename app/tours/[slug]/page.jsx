@@ -4,19 +4,12 @@ import Image from "next/image";
 import toursData from "../../../data/tours.json";
 import { useEffect, useState } from "react";
 import {
-    FaUserAlt,
     FaClock,
-    FaFacebook,
-    FaInstagram,
-    FaEnvelope,
-    FaPhone,
     FaMoneyBill,
     FaCalendar,
 } from "react-icons/fa";
 import ToursHome from "../../../components/ToursHome";
 import ContactTour from "../../../components/ContactTour";
-
-import React from "react";
 import Link from "next/link";
 
 const Tour = ({ params: { slug } }) => {
@@ -96,7 +89,7 @@ const Tour = ({ params: { slug } }) => {
 
                 <ToursHome title="Otros Tours" />
 
-                <Link href="#reservar">
+                <Link href="/tours/#reservar">
                     <div className="fixed bottom-3 left-3 bg-blue-900 text-white flex items-center gap-2 px-2 py-2 rounded-md md:hidden">
                         <label>RESERVAR!</label>
                         <FaCalendar />

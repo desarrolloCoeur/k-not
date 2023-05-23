@@ -54,7 +54,7 @@ const Footer = () => {
                     </div>
                     <div className="md:w-1/2 lg:w-1/4 flex flex-col items-start gap-1 mb-10 pr-3">
                         <h3>Ubicacion</h3>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3730.4894710822314!2d-105.51939772415429!3d20.77147678081425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421130a4780c45d%3A0xf5720f0d2870a811!2sYKnot%20Fishing%20and%20SeaDoos!5e0!3m2!1sen!2smx!4v1684347219929!5m2!1sen!2smx" width="100%" height="250"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3730.4894710822314!2d-105.51939772415429!3d20.77147678081425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421130a4780c45d%3A0xf5720f0d2870a811!2sYKnot%20Fishing%20and%20SeaDoos!5e0!3m2!1sen!2smx!4v1684347219929!5m2!1sen!2smx" width="100%" height="250"  loading="lazy" ></iframe>
                     </div>
                 </div>
                 

@@ -12,7 +12,7 @@ const LatestBlogs = () => {
                     return (
                         <div
                             key={i}
-                            className="bg-slate-100 w-full md:w-1/3 shadow-md transition-all hover:shadow-2xl hover:scale-[1.009] rounded-md"
+                            className="bg-slate-100 w-full md:w-1/3 shadow-md transition-all hover:shadow-2xl hover:scale-[1.009] rounded-md " 
                         >
                             <Image
                                 src={blog.ftimg}

@@ -15,19 +15,19 @@ export default function Home() {
                 </h1>
                 <div className="flex flex-wrap md:flex-nowrap justify-center items-center gap-10 my-20 ">
                     <div className=" w-full h-[300px] md:w-1/3 bg-cover bg-[url(/img/fishing-home.jpeg)] flex justify-center items-end pb-5 bg-center rounded-xl transition-all hover:scale-[1.009]">
-                        <Link href="#" className="btn-primary">
+                        <Link href="/pesca" className="btn-primary">
                             IR A PESCAR!
                         </Link>
                     </div>
 
                     <div className=" w-full h-[300px] md:w-1/3 bg-cover bg-[url(/img/jet-ski-home.jpg)] flex justify-center items-end pb-5 bg-center rounded-xl transition-all hover:scale-[1.009]">
-                        <Link href="#" className="btn-primary">
+                        <Link href="/tours/jet-ski-rental" className="btn-primary">
                             RENTAR JETSKIS!
                         </Link>
                     </div>
 
                     <div className=" w-full h-[300px] md:w-1/3 bg-cover bg-[url(/img/tours-home.jpg)] flex justify-center items-end pb-5 bg-center rounded-xl transition-all hover:scale-[1.009]">
-                        <Link href="#" className="btn-primary">
+                        <Link href="#tours" className="btn-primary">
                             VER TOURS!
                         </Link>
                     </div>
