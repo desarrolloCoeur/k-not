@@ -15,7 +15,7 @@ export default function Home() {
                 </h1>
                 <div className="flex flex-wrap md:flex-nowrap justify-center items-center gap-10 my-20 ">
                     <div className=" w-full h-[300px] md:w-1/3 bg-cover bg-[url(/img/fishing-home.jpeg)] flex justify-center items-end pb-5 bg-center rounded-xl transition-all hover:scale-[1.009]">
-                        <Link href="/pesca" className="btn-primary">
+                        <Link href="/pesca-deportiva" className="btn-primary">
                             IR A PESCAR!
                         </Link>
                     </div>

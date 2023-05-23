@@ -5,7 +5,7 @@ const Contacto = () => {
     <div className="  py-24">
     <div className="grid lg:grid-cols-2 grid-cols-1 lg:w-4/6 w-5/6 mx-auto">
       <div className="lg:mb-0 mb-12">
-        <h4 className=" font-bold lg:text-6xl text-4xl">Send a Message</h4>
+        <h4 className=" font-bold lg:text-6xl text-4xl">Enviar un mensaje.</h4>
         <div className="lg:mr-12 mr-0 mt-6">
           <input type="text" placeholder="Nombre" className="mt-3 px-3 py-3 bg-transparent border-2 shadow-sm border-blue-950 placeholder-blue-900 font-normal focus:outline-none focus:border-white  block w-full sm:text-ms " />
           <input type="email" placeholder="Email" className="mt-3 px-3 py-3 bg-transparent border-2 shadow-sm border-blue-950 placeholder-blue-900 font-normal focus:outline-none focus:border-white  block w-full sm:text-ms " />

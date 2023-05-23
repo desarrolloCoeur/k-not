@@ -19,7 +19,7 @@ const pescaDeportiva = () => {
                 "time": "4 horas",
                 "price": "1,500",
                 "gallery" : [
-                    "/img/whale-whatching-1.webp","/img/whale-whatching-2.webp","/img/whale-whatching-3.webp","/img/whale-whatching-4.webp","/img/whale-whatching-5.webp","/img/whale-whatching-6.webp"
+                    "/img/pesca-deportiva-1.webp","/img/pesca-deportiva-2.webp","/img/pesca-deportiva-3.webp","/img/pesca-deportiva-4.webp","/img/pesca-deportiva-5.webp","/img/pesca-deportiva-6.webp","/img/pesca-deportiva-7.webp","/img/pesca-deportiva-8.webp","/img/pesca-deportiva-9.webp","/img/pesca-deportiva-10.webp","/img/pesca-deportiva-11.webp","/img/pesca-deportiva-12.webp","/img/pesca-deportiva-13.webp","/img/pesca-deportiva-15.webp","/img/pesca-deportiva-16.webp"
                 
                 ]
     }

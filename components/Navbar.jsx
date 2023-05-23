@@ -48,7 +48,7 @@ const Navbar = () => {
                     </div>
                     <div className="md:flex items-center gap-7 uppercase hidden ">
                         <Link href="/">Inicio</Link>
-                        <Link href="/pesca-deportiva">Pesca</Link>
+                        <Link href="/pesca-deportiva">PESCA</Link>
                         <button onClick={toggleTours}>TOURS</button>
                         <Link href="/ubicaciones">Ubicaciones</Link>
                         <Link href="/nosotros">Nosotros</Link>
