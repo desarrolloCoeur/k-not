@@ -1,30 +1,14 @@
 'use client'
 import Link from "next/link";
 import useEmblaCarousel from "embla-carousel-react";
+import heroData from "../data/hero.json"
 
 
 const Hero = () => {
     const [emblaRef] = useEmblaCarousel({ loop: true });
 
 
-    const heroData = {
-        tours: [
-            {
-                imageSlider: "/img/kayak-hero.jpg",
-                title: "Kayak en el Oceano",
-                slug: "kayak-en-el-oceano",
-            },
-            {
-                imageSlider: "/img/ballenas-hero.jpg",
-                title: "Avistamiendo de Ballenas",
-                slug: "avistamiento-de-ballenas",
-            },            {
-                imageSlider: "/img/marietas.jpg",
-                title: "Islas Marietas",
-                slug: "islas-marietas",
-            },
-        ],
-    };
+
 
     return (
         <>       

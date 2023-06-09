@@ -10,11 +10,9 @@ import {
 } from "react-icons/fa";
 import ToursHome from "../../../components/ToursHome";
 import ContactTour from "../../../components/ContactTour";
-import Link from "next/link";
 
 const Tour = ({ params: { slug } }) => {
     const [tour, setTour] = useState(null);
-
     useEffect(() => {
         getTour();
     });
@@ -53,16 +51,16 @@ const Tour = ({ params: { slug } }) => {
                 <div className="flex flex-col md:flex-row gap-3 relative my-10">
                     <div className="w-full md:w-2/3">
                         <div className="flex justify-between w-full flex-col sm:flex-row">
-                            <div>
+                            <div className="w-2/3">
                                 <h1>{tour.title}</h1>
                             </div>
                             <div className="flex flex-wrap items-center gap-3 ">
-                                <label className="flex flex-row gap-1 items-center">
-                                    <FaClock /> {tour.time}
+                                <label className="flex flex-row gap-2 items-center text-2xl uppercase font-bold bg-blue-950 rounded-md text-white px-3 ">
+                                    <FaClock className="text-white" /> {tour.time}
                                 </label>
-                                <label className="flex flex-row gap-1 items-center">
+{/*                                 <label className="flex flex-row gap-1 items-center">
                                     <FaMoneyBill /> {`$ ${tour.price}`}
-                                </label>
+                                </label> */}
                             </div>
                         </div>
                         <p className="mt-3">{tour.description}</p>
@@ -89,12 +87,6 @@ const Tour = ({ params: { slug } }) => {
 
                 <ToursHome title="Otros Tours" />
 
-                <Link href="/tours/#reservar">
-                    <div className="fixed bottom-3 left-3 bg-blue-900 text-white flex items-center gap-2 px-2 py-2 rounded-md md:hidden">
-                        <label>RESERVAR!</label>
-                        <FaCalendar />
-                    </div>
-                </Link>
             </div>
         </>
     );

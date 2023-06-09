@@ -1,0 +1,18 @@
+{
+    "tours": [
+        {
+            "imageSlider": "/img/kayak-hero.jpg",
+            "title": "Kayak en el Oceano",
+            "slug": "kayak-en-el-oceano"
+        },
+        {
+            "imageSlider": "/img/ballenas-hero.jpg",
+            "title": "Avistamiendo de Ballenas",
+            "slug": "avistamiento-de-ballenas"
+        },            {
+            "imageSlider": "/img/marietas.jpg",
+            "title": "Islas Marietas",
+            "slug": "islas-marietas"
+        }
+    ]
+}

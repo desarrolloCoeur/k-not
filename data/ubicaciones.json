@@ -1,34 +1,62 @@
 {
     "ubicaciones" : [
         {
-            "title" : "Puerto Vallarta",
-            "slug" : "puerto-vallarta",
-            "description" : "Puerto Vallarta es una ciudad turística ubicada en la costa del Pacífico de México, en el estado de Jalisco. Es conocida por sus playas hermosas, su arquitectura colonial y su vibrante vida nocturna. También es famosa por su famoso Malecón, un paseo marítimo con tiendas, restaurantes y bares.",
-            "image" : "/img/puerto-vallarta.webp" 
-        },
-        {
             "title" : "Sayulita",
             "slug" : "sayulita",
             "description" : "Sayulita es un pequeño pueblo costero ubicado al norte de Puerto Vallarta, en el estado de Nayarit. Es conocido por su ambiente relajado y bohemio, su colorida arquitectura y sus excelentes playas para practicar surf.",
-            "image" : "/img/sayulita.webp" 
+            "large" :"Sayulita, ubicado en la Riviera Nayarit, es un pintoresco y vibrante pueblo costero que combina el encanto de sus calles empedradas con la belleza de sus playas de arena dorada. Este destino se ha convertido en un paraíso para los amantes del surf, ofreciendo olas perfectas y un ambiente relajado. Además de surfear, podrás explorar tiendas bohemias, degustar deliciosa comida local y disfrutar de actividades acuáticas emocionantes como el paddleboarding y el kayak. Sayulita es el lugar ideal para aquellos que buscan un ambiente relajado y una experiencia auténtica en la costa del Pacífico mexicano.",
+            "image" : "/img/sayulita.webp",
+            "hero" : "/img/sayulita.png" 
         },
         {
-            "title" : "Punta Mita",
+            "title" : "Punta de Mita",
             "slug" : "punta-mita",
-            "description" : "Punta Mita es un complejo turístico de lujo ubicado en la costa del Pacífico, al norte de Puerto Vallarta. Es conocido por sus hermosas playas, su campo de golf de clase mundial y su variedad de restaurantes de alta calidad. También es un destino popular para practicar deportes acuáticos y para observar la vida marina.",
-            "image" : "/img/punta-mita.webp" 
+            "description" : "Punta de Mita es un complejo turístico de lujo ubicado en la costa del Pacífico, al norte de Puerto Vallarta. Es conocido por sus hermosas playas, su campo de golf de clase mundial y su variedad de restaurantes de alta calidad. También es un destino popular para practicar deportes acuáticos y para observar la vida marina.",
+            "large" : "Punta de Mita es un exclusivo destino de lujo ubicado en la Riviera Nayarit, que combina belleza natural con una amplia gama de actividades acuáticas emocionantes. Aquí encontrarás playas exclusivas de arena blanca y aguas cristalinas que invitan a disfrutar de la renta de jet-ski y explorar la costa a toda velocidad. Además, Punta Mita ofrece otras opciones de entretenimiento acuático, como el surf, el snorkel en arrecifes coloridos y la navegación en catamarán. Sumérgete en la elegancia y el lujo de Punta Mita mientras te deleitas con la emoción de la renta de jet-ski y las experiencias acuáticas sin igual.",
+            "image" : "/img/punta-mita.webp",
+            "hero" : "/img/punta-mita-2.jpg" 
         },
         {
             "title" : "Anclote",
             "slug" : "anclote",
             "description" : "Playa El Anclote es una playa ubicada en el pueblo costero de Punta de Mita, al norte de Puerto Vallarta. Es conocida por su hermosa arena blanca y sus aguas cristalinas, lo que la convierte en un lugar popular para practicar deportes acuáticos como el surf y el paddleboarding.",
-            "image" : "/img/anclote.webp" 
+            "large" : "Anclote es un encantador destino costero ubicado en Punta de Mita, conocido por sus playas de ensueño y su ambiente relajado. Además de su belleza natural, Anclote ofrece emocionantes opciones de renta de jet-ski, donde podrás deslizarte sobre las olas y sentir la adrenalina mientras exploras la costa. También puedes disfrutar de otras actividades acuáticas como el snorkel, el paddleboarding y la pesca deportiva. Sumérgete en la belleza de Anclote y vive aventuras emocionantes en las cristalinas aguas del océano Pacífico.",
+            "image" : "/img/anclote.webp",
+            "hero" : "/img/anclote-2.jpg" 
+        },
+        {
+            "title" : "La Cruz de Huanacaxtle",
+            "slug" : "cruz-de-huanacaxtle",
+            "description" : "Más tranquilo que Bucerías y más relajado que Punta Mita, es La Cruz de Huanacaxtle. Este pueblo a mitad de camino entre ambos sitios es una buena opción en la Riviera Nayarit para viajeros inquietos… ¡y de buen diente! Aunque tiene apenas una veintena de calles, la densidad y calidad de sus restaurantes es notable.",
+            "large" : "La Cruz de Huanacaxtle es un auténtico pueblo pesquero ubicado en la Riviera Nayarit, que combina la tradición y el encanto local con la belleza natural de su entorno. Pasea por su malecón y admira las coloridas embarcaciones de pesca, visita el mercado local para probar los mariscos frescos del día y disfruta de la auténtica hospitalidad mexicana en los restaurantes y bares cercanos. La Cruz de Huanacaxtle también ofrece emocionantes actividades acuáticas, como la pesca deportiva, los paseos en velero y el buceo en arrecifes cercanos. Sumérgete en la autenticidad de La Cruz de Huanacaxtle, un destino que te transportará a la esencia misma de la vida en un pueblo pesquero.",
+            "image" : "/img/cruz-de-huanacaxtle.jpg",
+            "hero" : "/img/la-cruz.jpg" 
         },
         {
             "title" : "Marina Vallarta",
-            "slug" : "puerto-vallarta",
-            "description" : "Marina Vallarta es un complejo turístico ubicado en la bahía de Banderas, al norte de Puerto Vallarta. Es conocido por su marina, que es una de las más grandes de México, y su campo de golf de 18 hoyos. También cuenta con una variedad de restaurantes, bares y tiendas.",
-            "image" : "/img/marina-vallarta.webp" 
+            "slug" : "marina-vallarta",
+            "description" : "Marina Vallarta es un área urbanizada moderna y planificada, conocida por sus elegantes hoteles y complejos turísticos, playas de arena y un gran puerto deportivo que alberga yates de lujo.",
+            "large" : "Marina Vallarta es una exclusiva marina ubicada en Puerto Vallarta, conocida por su elegancia y sofisticación. Rodeada de impresionantes yates, esta marina ofrece una amplia gama de restaurantes de alta cocina, bares animados y tiendas de lujo donde podrás encontrar marcas reconocidas. Pasea por los muelles y admira la belleza de los barcos, o relájate en una terraza con vistas al mar. Además, Marina Vallarta ofrece emocionantes actividades acuáticas como la pesca deportiva, el paseo en velero y el avistamiento de ballenas en temporada. Sumérgete en la exclusividad y la sofisticación de Marina Vallarta, un destino que combina la belleza del océano con la elegancia moderna.",
+            "image" : "/img/marina-vallarta.webp", 
+            "hero" : "/img/marina-hero.jpg" 
+        },
+        {
+            "title" : "Kupuri - Punta de Mita",
+            "slug" : "kupuri",
+            "description" : "Descubre Kupuri, un paraíso oculto en Punta Mita. Disfruta de playas privadas, aguas cristalinas y exclusivas actividades acuáticas.",
+            "large" : "Kupuri es un tesoro escondido en Punta Mita, un destino exclusivo que te sorprenderá con sus playas privadas y emocionantes opciones de renta de jet-ski. Aquí podrás disfrutar de la adrenalina de deslizarte sobre las olas, explorar calas aisladas y descubrir rincones ocultos mientras te maravillas con la belleza natural que te rodea. Además de la renta de jet-ski, Kupuri también ofrece otras actividades acuáticas como el paddleboarding, el snorkel en arrecifes privados y la navegación en kayak. Sumérgete en la exclusividad y la aventura de Kupuri, un destino donde la renta de jet-ski se combina con la tranquilidad de playas privadas.",
+            "image" : "/img/kupuri.jpg", 
+            "hero" : "/img/kupuri-2.webp" 
         }
+        ,
+        {
+            "title" : "Sufi - Punta de Mita",
+            "slug" : "sufi",
+            "description" : "Sumérgete en la belleza de Sufi, una exclusiva playa en Punta Mita con renta de jet-ski. Disfruta de aguas turquesas y emocionantes experiencias acuáticas.",
+            "large" : "Sufi es un paraíso en Punta Mita que te envolverá con su belleza natural y sofisticación. Aquí encontrarás aguas turquesas que invitan a la renta de jet-ski, donde podrás deslizarte sobre las olas y sentir la emoción de la velocidad mientras exploras la costa. Además de la renta de jet-ski, Sufi ofrece otras experiencias acuáticas emocionantes como el snorkel en arrecifes vibrantes y la navegación en velero. Sumérgete en la belleza y la aventura de Sufi, donde la renta de jet-ski se combina con el lujo de un destino exclusivo en Punta Mita.",
+            "image" : "/img/sufi-2.webp",
+            "hero" : "/img/sufi-1.webp"
+        }
+    
     ]
 }

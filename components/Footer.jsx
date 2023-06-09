@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaFacebook, FaInstagram, FaPhone, FaEnvelope } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaPhone, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -21,39 +21,39 @@ const Footer = () => {
 
 
                         </p>
+                        <Link href="https://fishingbooker.com/charters/view/16243" target="_blank" className="hover:scale-[1.010]">
+                            <div className="bg-[#2080BF] rounded-md px-2 py-2">
+                                <Image src="/img/fishing-booker.svg" alt="Fishing Booker - Y-knot Fihshing & Jetski Rental" width={120} height={100}/>
+                                <p className="pb-0">⭐⭐⭐⭐⭐</p>
+                                <p className="text-sm  font-bold text-white pb-0 uppercase">Y-knot Fishing & Seadoos</p>
+                            </div>
+                        </Link>
                     </div>
                     <div className="md:w-1/2 lg:w-1/4 flex flex-col items-start gap-1 mb-10 pr-3">
                         <h3>Contactanos</h3>
-                        <Link href="#" className="flex items-center gap-3"><FaEnvelope /> info@gofishpuntamita.com</Link>
-                        <small>Desde USA</small>
-                        <div className="flex flex-row gap-3 items-start ">
-                            <FaPhone />
+                        <Link href="mailto:info@gofishpuntamita.com" className="flex items-center gap-3"><FaEnvelope /> info@gofishpuntamita.com</Link>
+                        <Link href="https://wa.me/+523221351204" className="flex items-center gap-3 mt-2"><FaWhatsapp className="text-lg"/> WhatsApp</Link>
+                        <div className="flex flex-row gap-3 items-start mt-2">
+                            <FaPhone className="mt-[5px]"/>
                             <div className="flex flex-col">
-                                <Link href="#">322 298 4295</Link>
-                                <Link href="#">322 298 4295</Link>
+                                <Link href="tel:+523221351204">+52 322 135 1204</Link>
+                                <Link href="tel:+523222984295">+52 322 298 4295</Link>
                             </div>
                         </div>
-                        <small>Desde MX</small>
-                        <div className="flex flex-row gap-3 items-start ">
-                            <FaPhone />
-                            <div className="flex flex-col">
-                                <Link href="#">322 298 4295</Link>
-                                <Link href="#">322 298 4295</Link>
-                            </div>
-                        </div>
+               
                     </div>
                     <div className="md:w-1/2 lg:w-1/4 flex flex-col items-start gap-1 mb-10 pr-3">
                         <h3>Acerca de</h3>
                         <div className="flex flex-col gap-1">
-                            <Link href="#">Rentar un Jet-ski</Link>
-                            <Link href="#">Ir a Pescar</Link>
-                            <Link href="#">Nuestros Tours</Link>
-                            <Link href="#">Contactanos</Link>
-                            <Link href="#">Tour Privado</Link>
+                            <Link href="/tours/jet-ski-rental">Rentar un Jet-ski</Link>
+                            <Link href="/pesca-deportiva">Ir a Pescar</Link>
+                            <Link href="/tours">Nuestros Tours</Link>
+                            <Link href="/contacto">Contactanos</Link>
+                            <Link href="tel:+523221351204">Tour Privado</Link>
                         </div>
                     </div>
                     <div className="md:w-1/2 lg:w-1/4 flex flex-col items-start gap-1 mb-10 pr-3">
-                        <h3>Ubicacion</h3>
+                        <h3>Ubicación</h3>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3730.4894710822314!2d-105.51939772415429!3d20.77147678081425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421130a4780c45d%3A0xf5720f0d2870a811!2sYKnot%20Fishing%20and%20SeaDoos!5e0!3m2!1sen!2smx!4v1684347219929!5m2!1sen!2smx" width="100%" height="250"  loading="lazy" ></iframe>
                     </div>
                 </div>

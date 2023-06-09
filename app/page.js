@@ -7,7 +7,7 @@ import Reviews from "@/components/Reviews";
 
 export default function Home() {
     return (
-        <>
+        <div className="overflow-x-hidden">
             <Hero />
             <div className="container mx-auto w-11/12">
                 <h1 className=" text-center mt-20 mb-16">
@@ -33,11 +33,11 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div class="grid lg:grid-cols-2 grid-cols-1 lg:gap-20 gap-3 container my-20 items-start">
-                    <div class="lg:text-justify leading-loose">
+                <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-20 gap-3 container my-20 items-start">
+                    <div className="lg:text-justify leading-loose">
                         <h2>NOSOTROS</h2>
 
-                        <p class=" text-lg">
+                        <p className=" text-lg">
                             Somos un grupo de personas amantes de la pesca y
                             Punta Mita es uno de los mejores lugares para eso.
                             Tenemos muchas actividades divertidas y geniales
@@ -51,7 +51,7 @@ export default function Home() {
                             y distintivas excursiones.
                         </p>
                     </div>
-                    <div class="max-w-2xl mb-6 pt-3 lg:pt-0">
+                    <div className="max-w-2xl mb-6 pt-3 lg:pt-0">
                         <Image
                             src="/img/yknot.webp"
                             className="w-full h-auto object-cover"
@@ -67,6 +67,6 @@ export default function Home() {
                 <Reviews />
                 <LatestBlogs />
             </div>
-        </>
+        </div>
     );
 }

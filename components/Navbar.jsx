@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Tours } from "./sliders/Tours";
 import { useState } from "react";
-import { FaBars, FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaBars, FaFacebook, FaInstagram,FaTripadvisor,FaGoogle } from "react-icons/fa";
 
 const Navbar = () => {
     const [isTourOpen, setTourOpen] = useState();
@@ -30,6 +30,9 @@ const Navbar = () => {
                     <div className="flex gap-2 text-lg" >
                         <FaFacebook className="text-white"/>
                         <FaInstagram className="text-white"/>
+                        <FaTripadvisor className="text-white"/>
+                        <FaGoogle className="text-white"/>
+                        
                     </div>
                 </div>
             </div>

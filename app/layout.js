@@ -2,6 +2,7 @@ import { Libre_Franklin} from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import "./globals.css";
+import Whatsapp from "@/components/Whatsapp";
 
 const libreFranklin = Libre_Franklin({ weigth: '100' ,subsets: ["latin"], variable: '--font-franklin' });
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
                 <Navbar />
                 {children}
                 <Footer />
+                <Whatsapp />
             </body>
         </html>
     );
