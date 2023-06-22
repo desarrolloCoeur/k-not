@@ -1,5 +1,6 @@
 'use client'
 
+import Link from "next/link";
 import { useState } from "react"
 
 
@@ -28,7 +29,7 @@ const ContactTour = () => {
         <input type="email" value={email} placeholder="Correo Electronico" onChange={(e) => setEmail(e.target.value)} />
         <input type="phone" value={phone} placeholder="Telefono" onChange={(e) => setPhone(e.target.value)} />
         <button type="submit" className="btn-primary mt-5">Enviar Correo</button>
-        <button className="btn-primary" onClick={submitMessage}>Enviar WhatsApp</button>
+        <Link className="btn-primary text-center" href="https://wa.me/+523221351204" target="_blank">Enviar WhatsApp</Link>
     </form>
     
     </div>

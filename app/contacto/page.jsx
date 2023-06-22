@@ -1,8 +1,9 @@
-import { FaPhone, FaFacebook, FaInstagram, FaEnvelope } from 'react-icons/fa'
+import Link from 'next/link'
+import { FaPhone, FaFacebook, FaInstagram, FaEnvelope, FaWhatsapp } from 'react-icons/fa'
 
 const Contacto = () => {
   return (
-    <div className="  py-24">
+    <div className="py-24">
     <div className="grid lg:grid-cols-2 grid-cols-1 lg:w-4/6 w-5/6 mx-auto">
       <div className="lg:mb-0 mb-12">
         <h4 className=" font-bold lg:text-6xl text-4xl">Enviar un mensaje.</h4>
@@ -35,35 +36,21 @@ const Contacto = () => {
       <div className="bg-slate-100 rounded-md">
         <div className="mx-12 ">
           <h4 className="font-bold lg:text-xl text-lg mt-12 mb-8 lg:text-left text-center">Si tienes alguna duda o quieres realizar tu reserva envíanos un mensaje y en menos de 24hrs estaremos en contacto.</h4>
-          <div className="flex">
-            <div className="mx-0">
-              <div className="mb-3">
-                <p className="mx-0 mb-1 ">Desde EE. UU. y Canadá</p>
-                <div className='flex items-center gap-3'>
+          <div className="flex flex-col gap-3 font-semibold">
+                <Link href="mailto:info@gofishpuntamita.com" className="flex items-center gap-3">
+                  <FaEnvelope />
+                  <p className="mb-0 pb-0">info@gofishpuntamita.com</p>
+                </Link>
+                <Link href="https://wa.me/+523221351204" className="flex items-center gap-3">
+                  <FaWhatsapp />
+                  <p className="mb-0 pb-0">WhatsApp</p>
+                </Link>
+                <Link href="tel:+523221351204" className='flex items-center gap-3'>
                   <FaPhone/>
-                  <p className='mb-0 pb-0'>011-521-322-135-1204</p>
-                </div>
-              </div>
-              <div className="mb-3">
-                <p className="mx-0 mb-1">Home</p>
-                <div className='flex items-center gap-3'>
-                  <FaPhone/>
-                  <p className='mb-0 pb-0'>011-52-329-298-4295</p>
-                </div>
-              </div>
-              <div className="mb-3">
-                <p className="mx-0 mb-1">Desde México</p>
-                <div className='flex items-center gap-3'>
-                  <FaPhone/>
-                  <p className='mb-0 pb-0'>(322)-135-1204 or 329-298-4295</p>
-                </div>
-              </div>
-            </div>
+                  <p className='mb-0 pb-0'>+52 322 135 1204</p>
+                </Link>
           </div>
-          <div className="flex items-center gap-3">
-            <FaEnvelope />
-                <p className="text-[#f04444] mb-0 pb-0">info@gofishpuntamita.com</p>
-          </div>
+
           <h4 className="font-bold lg:text-2xl text-xl mt-10 mb-6">Síguenos</h4>
           <div className="flex pb-12 items-center gap-5 text-xl">
             <FaFacebook />
