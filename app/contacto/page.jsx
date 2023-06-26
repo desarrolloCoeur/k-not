@@ -1,8 +1,37 @@
+// import React, { useRef } from 'react';
+// import emailjs from '@emailjs/browser';
+
 import Link from 'next/link'
 import { FaPhone, FaFacebook, FaInstagram, FaEnvelope, FaWhatsapp } from 'react-icons/fa'
 
 const Contacto = () => {
+  // const form = useRef();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+
+  //   emailjs.sendForm('service_1bz307k', 'template_n2cwi8p', form.current, 'Z4BX9qWU56vTkXB5t')
+  //     .then((result) => {
+  //         console.log(result.text);
+  //     }, (error) => {
+  //         console.log(error.text);
+  //     });
+  // };
+
+
   return (
+
+<>
+    {/* <form ref={form} onSubmit={sendEmail}>
+    <label>Name</label>
+    <input type="text" name="user_name" />
+    <label>Email</label>
+    <input type="email" name="user_email" />
+    <label>Message</label>
+    <textarea name="message" />
+    <input type="submit" value="Send" />
+  </form> */}
+
+
     <div className="py-24">
     <div className="grid lg:grid-cols-2 grid-cols-1 lg:w-4/6 w-5/6 mx-auto">
       <div className="lg:mb-0 mb-12">
@@ -61,6 +90,8 @@ const Contacto = () => {
 
     </div>
   </div>
+
+  </>
   )
 }
 
