@@ -24,6 +24,7 @@ const Footer = () => {
                         <Link href="https://fishingbooker.com/charters/view/16243" target="_blank" className="hover:scale-[1.010]">
                             <div className="bg-[#2080BF] rounded-md px-2 py-2">
                                 <Image src="/img/fishing-booker.svg" alt="Fishing Booker - Y-knot Fihshing & Jetski Rental" width={120} height={100}/>
+                                <p className="text-sm  font-bold text-white pb-0 uppercase">5 STARS EXPERIENCES</p>
                                 <p className="pb-0">⭐⭐⭐⭐⭐</p>
                                 <p className="text-sm  font-bold text-white pb-0 uppercase">Y-knot Fishing & Seadoos</p>
                             </div>

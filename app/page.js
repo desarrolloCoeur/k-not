@@ -38,15 +38,13 @@ export default function Home() {
                         <h2>NOSOTROS</h2>
 
                         <p className=" text-lg">
-                            Somos un grupo de personas amantes de la pesca y
-                            Punta Mita es uno de los mejores lugares para eso.
-                            Tenemos muchas actividades divertidas y geniales
-                            para nuestros clientes. <br />
+                            Somos un grupo de personas amantes de la pesca, y
+                            Punta Mita es uno de los mejores lugares para esta actividad.
+                            Ofrecemos una amplia gama de experiencias divertidas y excepcionales. <br />
                             <br />
-                            Ven y acompáñanos en nuestra amplia y apasionante
-                            variedad de tours de aventura, diseñados
-                            especialmente para ti, y vive momentos inolvidables.
-                            Explora las experiencias más emocionantes que Puerto
+                            Te invitamos a unirte a nosotros en nuestra emocionante variedad de tours de aventura, 
+                            diseñados especialmente para proporcionarte momentos inolvidables.
+                            Descubre las experiencias más emocionantes que Puerto
                             Vallarta tiene para ofrecer con nuestras exclusivas
                             y distintivas excursiones.
                         </p>
